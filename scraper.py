@@ -118,8 +118,8 @@ def parse_arguments():
     # 核心参数
     parser.add_argument(
         "-o", "--output",
-        default="D:/yikehuj/temp/free_get_node.txt",
-        help="文件保存路径（默认：D:/yikehuj/temp/free_get_node.txt）"
+        default="",
+        help="文件保存路径"
     )
     parser.add_argument(
         "-p", "--proxy",
@@ -201,4 +201,5 @@ def main():
 
 
 if __name__ == "__main__":
+
     main()
